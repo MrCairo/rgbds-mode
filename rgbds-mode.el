@@ -1,12 +1,18 @@
-;; rgbds-mode.el --- a simple RGBDS syntax highighting package
+;;; rgbds-mode.el --- RGBDS (GameBoy dev)  -*- lexical-binding:t -*-
 
-;; Copyright (C) 2024
+;; Copyright (C) 2024 Free Software Foundation, Inc.
 
-;; Author: unknown
-;; Keywords: z80 assembly rgbds
+;; Author: M. R. Fisher <jsr.ffd2@gmail.com>
 ;; Version: 1.0.1
+;; Package-Requires: ((mwim "0.4"))
+;; Keywords: z80, assembly, rgbds, tools, languages
+;; URL: https://github.com/MrCairo/rgbds-mode
 
-;;; Based on https://www.cemetech.net/forum/viewtopic.php?t=6413&start=0
+;;; Commentary:
+
+;; Based on https://www.cemetech.net/forum/viewtopic.php?t=6413&start=0
+
+;;; Code:
 
 (require 'mwim)
 
@@ -57,4 +63,4 @@
 (define-key rgbds-mode-map (kbd "C-e") 'mwim-end-of-code-or-line)
 
 (provide 'rgbds-mode)
-;;; rgbds-mode ends here
+;;; rgbds-mode.el ends here
