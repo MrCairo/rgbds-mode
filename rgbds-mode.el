@@ -1,7 +1,13 @@
-;;; rgbds-mode --- Major mode for Gameboy assembly
-;;; Commentary:
+;; rgbds-mode.el --- a simple RGBDS syntax highighting package
+
+;; Copyright (C) 2024
+
+;; Author: unknown
+;; Keywords: z80 assembly rgbds
+;; Version: 1.0.1
+
 ;;; Based on https://www.cemetech.net/forum/viewtopic.php?t=6413&start=0
-;;; Code:
+
 (require 'mwim)
 
 (defconst rgbds-font-lock-keywords-1
